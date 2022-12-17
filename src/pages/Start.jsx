@@ -42,9 +42,10 @@ export default function Start() {
   }
 
   useEffect(() => {
-    // 데이터 받아오기
+    // 데이터 받아온 함수 실행
     mongoFetchData();
   }, []);
+
   return (
     <>
       <Header>개발자 MBTI 조사</Header>
